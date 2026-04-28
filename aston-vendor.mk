@@ -1363,6 +1363,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     odm_lib_rfsa_adsp_libtfadsp_sb4_0_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb4_0_tx_so \
+    ConsumerIRApp \
     EuiccGoogle \
     vendor.qti.camera.aon-impl-1.3.xml \
     vendor.qti.camera.postproc-impl.xml \
