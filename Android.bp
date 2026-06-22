@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/oneplus/aston",
         "hardware/oplus",
         "hardware/pixelworks/interfaces",
         "hardware/qcom-caf/sm8550",
@@ -7655,6 +7656,7 @@ cc_prebuilt_library_shared {
                 "libion",
                 "libapsjpeg",
                 "libapsexif",
+                "libapsfixup",
                 "liblog",
                 "libcutils",
                 "libutils",
