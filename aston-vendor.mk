@@ -1331,6 +1331,11 @@ PRODUCT_PACKAGES += \
     librmsclib1 \
     libsaveshaderbin \
     libsdk_sr \
+    libsdk_sr_ref \
+    sr_models \
+    sr_models.bin_symlink \
+    sr_ref_models \
+    sr_ref_models.bin_symlink \
     libsharebuffer \
     libsharebuffer_impl \
     libsnapdragoncolor-pxlw \

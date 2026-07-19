@@ -12807,3 +12807,68 @@ cc_prebuilt_binary {
     prefer: true,
     device_specific: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libsdk_sr_ref",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libsdk_sr_ref.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sr_models",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/sr_models.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+install_symlink {
+    name: "sr_models.bin_symlink",
+    device_specific: true,
+    installed_location: "lib64/sr_models.bin",
+    symlink_target: "sr_models.so",
+}
+
+cc_prebuilt_library_shared {
+    name: "sr_ref_models",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/sr_ref_models.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+install_symlink {
+    name: "sr_ref_models.bin_symlink",
+    device_specific: true,
+    installed_location: "lib64/sr_ref_models.bin",
+    symlink_target: "sr_ref_models.so",
+}
