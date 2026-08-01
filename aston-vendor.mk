@@ -890,7 +890,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/aston/proprietary/odm/firmware/fastchg/charge_time_config.csv:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charge_time_config.csv \
     vendor/oneplus/aston/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/oneplus/aston/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
+    vendor/oneplus/aston/proprietary/odm/firmware/iris7p.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7p.fw \
+    vendor/oneplus/aston/proprietary/odm/firmware/iris7p_ccf1.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7p_ccf1.fw \
+    vendor/oneplus/aston/proprietary/odm/firmware/iris7p_ccf2.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7p_ccf2.fw \
+    vendor/oneplus/aston/proprietary/odm/firmware/iris7p_ccf3.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7p_ccf3.fw \
     vendor/oneplus/aston/proprietary/odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw \
+    vendor/oneplus/aston/proprietary/odm/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw:$(TARGET_COPY_OUT_ODM)/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw \
     vendor/oneplus/aston/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/aston/proprietary/odm/firmware/tp/23801/FW_S3910_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23801/FW_S3910_BOE.img \
     vendor/oneplus/aston/proprietary/odm/firmware/tp/23801/FW_S3910_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23801/FW_S3910_BOE_FAE.img \
@@ -1164,7 +1169,6 @@ PRODUCT_PACKAGES += \
     com.oplus.node.sstabrealt \
     com.oplus.node.videoenhance \
     camera.oemlayer \
-    vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
     vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p \
     lib2DSlender \
     libAF \
@@ -1321,7 +1325,6 @@ PRODUCT_PACKAGES += \
     libpwirisfeature \
     libpwirishalwrapper \
     libpwirispq \
-    libpwirisservicei7 \
     libpwirisservicei7p \
     libpwirissoft \
     libpwsoftirisPCS \
